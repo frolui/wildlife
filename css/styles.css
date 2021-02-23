@@ -1,0 +1,12 @@
+.foxWrapper{
+    background-image: url('../assets/images/jpg/fox.jpg');
+    background-size: cover; 
+    width: 1440px; 
+    height: 779px;
+    padding: 0;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none    ;
+}
