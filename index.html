@@ -6,6 +6,9 @@
     <title>Wildlife</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="foxWrapper">
@@ -14,7 +17,7 @@
                 <img src="./assets/images/svg/horns.svg" alt="horns">
                 <p>WILDLIFE</p>
             </article>
-            <nav class="nacigation">
+            <nav class="navigation">
                 <ul class="navUl">
                     <li class="navLi">
                         <a class="navLiA" href="#">Blog</a>
@@ -27,17 +30,94 @@
                         <img src="./assets/images/svg/search.svg" alt="">
                     </a></li>
                     <li class="navLi">
-                        <a class="button navLiA" href="#">Sing in</a>
+                        <a class="singIn navLiA" href="#">Sing in</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <article class="survival"></article>
+        <article class="survival">
+            <h2 class="survivalName">Survival</h2>
+            <p class="survivalText">
+                What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.
+            </p>
+            <p>
+                <a href="#">Donate</a>
+            </p>
+        </article>
     </section>
-    <main>
-        <article class="latestArticle"></article>
-        <article class="getNotified"></article>
+    <main class="secondSection">
+        <article class="latestArticle">
+            <div class="container">
+                <h3 class="h3">Latest articles</h3>
+                <p>Breaking news from the wild</p>
+                <div class="smallContainer">
+                    <div class="">
+                        <button>
+                            <img src="./assets/images/svg/go_left.svg" alt="left">
+                        </button>
+                    </div>
+                    <div class="containerChild1">
+                        <img src="./assets/images/jpg/deer.jpg" alt="deer">
+                        <p class="animalName an1">Deer</p>
+                        <p class="animalText at1">Naturalist investigation</p>
+                    </div>
+                    <div class="containerChild2">
+                        <img src="./assets/images/jpg/squirel.jpg" alt="squirrel">
+                        <p class="animalName an2">Squirrel</p>
+                        <p class="animalText at2">Kamikaze squirrels</p>
+                    </div>
+                    <div class="containerChild3">
+                        <img src="./assets/images/jpg/bird.jpg" alt="bird">
+                        <p class="animalName an3">Bird</p>
+                        <p class="animalText at3">Birds flight club</p>
+                    </div>
+                    <div class="">
+                        <button>
+                            <img src="./assets/images/svg/go_right.svg" alt="right">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="getNotified">
+            <h4 class="formDescr">Get notified about new amazing articles</h4>
+            <form class="form" action="#">Email</form>
+        </article>
     </main>
-    <footer></footer>    
+    <footer>
+        <div class="footerContainer">
+            <div class="logo">
+                <img src="./assets/images/svg/horns.svg" alt="horns">
+                <p>WILDLIFE</p>
+            </div>   
+            <div>
+                <ul class="navUl">
+                    <li>
+                        <a href="#" class="navLiA">Articles</a>
+                        <a href="#" class="navLiA">About us</a>
+                        <a href="#" class="navLiA">Learn more</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="socials">
+                <ul class="navUl">
+                    <li class="socialsLi">
+                        <a href="#" class="socialsA">
+                            <img src="./assets/images/svg/facebook.svg" alt="facebook" class="socialsImg">
+                        </a>
+                        <a href="#" class="socialsA">
+                            <img src="./assets/images/svg/instagram.svg" alt="instagram" class="socialsImg">
+                        </a>
+                        <a href="#" class="socialsA">
+                            <img src="./assets/images/svg/pinterest.svg" alt="pinterest" class="socialsImg">
+                        </a>
+                        <a href="#" class="socialsA">
+                            <img src="./assets/images/svg/telegramm.svg" alt="telegramm" class="socialsImg">
+                        </a>
+                    </li>
+                </ul>
+            </div>   
+        </div>
+    </footer>    
 </body>
 </html>
